@@ -29,4 +29,7 @@ let b= a++;
 
 let x=3;
 let y= ++x;
-console.log(b + " - " + y + " - " + a);
+console.log(b + " - " + y + " - " + a); 
+
+console.log("2" === 2); //this is strict check this will check for the datatypes as well as value
+// so the answer here is false
