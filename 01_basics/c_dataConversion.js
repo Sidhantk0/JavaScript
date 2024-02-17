@@ -23,3 +23,10 @@ let isLoggedIn = 0;
 let booleanIsLoggedIn = Boolean(isLoggedIn);
 console.log(isLoggedIn); // output will be 0
 console.log(booleanIsLoggedIn); // output will be false
+
+let a=3;
+let b= a++;
+
+let x=3;
+let y= ++x;
+console.log(b + " - " + y + " - " + a);
