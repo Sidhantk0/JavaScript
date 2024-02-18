@@ -66,3 +66,20 @@ console.log(Object.keys(tinderUser));
 
 // To check whether any certain key is available in Object we do
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+
+const course ={
+    coursename: "js",
+    price: "999",
+    Instructor: "Sid",
+};
+
+// course.Instructor
+
+const {coursename: CN} = course;
+//console.log(coursename);
+console.log(CN);
+// this is when you have to access the key many times we can use these names
+// this is called de-structing of objects whenever you see {} used to access data 
+// from objects then know de-structuring is being done.
