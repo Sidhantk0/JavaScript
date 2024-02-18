@@ -1,8 +1,10 @@
 const arr= ["a","b","c"];
 const arr1= ["x","y","z"];
 
-// merging two arrays concat or merge
+// merging two arrays concat or spread (it's called this)
 //they both will give a new array so use a variable to store the output
+// note: if you try to assign array2 to array1 directly using equal sign 
+//then it array2 will be stored in array1 as Array inside Array
 
 const mergedArray = arr.concat(arr1);
 
